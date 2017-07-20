@@ -1,0 +1,17 @@
+{
+  "name": "book-review",
+  "description": "Small description for book-review goes here",
+  "main": "",
+  "authors": [
+    "dankosgei <dkosgei6@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
