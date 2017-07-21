@@ -1,4 +1,4 @@
-/* eslint-env node */
+/* jshint node: true */
 
 module.exports = function(environment) {
   var ENV = {
@@ -10,19 +10,14 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
     },
     firebase: {
-      apiKey: "AIzaSyBaIbMEvik6uPeWT2PJ7vklcTderrfqz98",
-      authDomain: "book-review-e488e.firebaseapp.com",
-      databaseURL: "https://book-review-e488e.firebaseio.com",
-      storageBucket: "",
+      apiKey: "AIzaSyDirS3VjgvIynD8WHd64GPL96WwLqccaaw",
+      authDomain: "book-review-f96ac.firebaseapp.com",
+      databaseURL: "https://book-review-f96ac.firebaseio.com",
+      storageBucket: "book-review-f96ac.appspot.com",
     },
-
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
